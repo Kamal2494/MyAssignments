@@ -17,5 +17,5 @@ console.log(isAutomation);
 console.log(typeof isAutomation)
 
 var hasPlaywright;
-console.log(hasPlaywright);
-console.log(typeof hasPlaywright)
+console.log(usesPlaywright);
+console.log(typeof usesPlaywright)
