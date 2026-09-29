@@ -12,8 +12,8 @@ import fs from 'fs';
     await page.goto('https://leaftaps.com/opentaps/control/main')
 
 
-    await page.locator("#username").fill(csvDataValue[0].Username);
-    await page.locator("#password").fill(csvDataValue[0].Password);
+    await page.locator("#username").fill(CsrData.Username);
+    await page.locator("#password").fill(CsrData.Password);
     await page.locator('input[type="submit"]').click();
     await expect(page.locator('page.locator("text=CRM/SFA")')).toBeTruthy()
     
